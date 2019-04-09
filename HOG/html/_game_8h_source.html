@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Исходный файл Game.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="HOG.sln"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a9d22f0e90fcd0df6492bbf0a67364fe.html">HOG</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Game.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_game_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_game.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_game.html">Game</a></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a12f32ba70a35a0dcd1f527b4d4a0d2c4">newGame</a>();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a304fa1f1160448dd0a7e6520d23c6c4a">game</a>(<span class="keywordtype">int</span> maxLvl);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a9178a31ed52855916619884456aacd96">battle</a>();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a984f0b5f0b678da85cb3cfccbc916474">lvlUp</a>();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a44e55724e402590ad34553a5e733dfa8">getLvlHero</a>();</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a0f4016f4d3a68660d49f724ec5f3ff94">getTotalPoints</a>();</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#ae68278d1fb0efbc8b7617d15c27066b5">getTotalBattles</a>();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a6053483309cbf4dc00f0b7474f1bfa87">getExpMonster</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#ad7091bc57611cf953804802cad823ec0">getExpHero</a>();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#a272b189eddd5e3647eab1a16f64d4792">getLvlUpHero</a>();</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#a1a89d1483b52cba446ac1cdba08d63e9">getFactorUp</a>();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#ae04f05a78afdcd52ad8dcebb142c757c">setLvlHero</a>(<span class="keywordtype">int</span> x);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a8e62fcd5f42453310ce8780159b1805b">setTotalPoints</a>(<span class="keywordtype">int</span> x);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a47c586c1e7955af4ddca0375f199126a">setTotalBattles</a>(<span class="keywordtype">int</span> x);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a23c71d447254dd4336ff166fffbf11a0">setExpMonster</a>(<span class="keywordtype">int</span> x);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a0645b9d4ac6769c6600e55a5241dd286">setExpHero</a>(<span class="keywordtype">double</span> x);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a309984322c5344669e77dbf51a6d95d4">setLvlUpHero</a>(<span class="keywordtype">double</span> x);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a2ecd8445b7dec3f6e4e41a2d834f05cf">setFactorUp</a>(<span class="keywordtype">double</span> x);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="class_game.html#a16daf5063702fb54ada35f13598692ef">   91</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a16daf5063702fb54ada35f13598692ef">lvlHero</a>;</div><div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="class_game.html#adf4701be3eac15cca7a6bf9993d42fe5">   93</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#adf4701be3eac15cca7a6bf9993d42fe5">lvlMonster</a>;</div><div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_game.html#a152d8fe67f8a082d080e6722c23a22c2">   95</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a152d8fe67f8a082d080e6722c23a22c2">totalPoints</a>;</div><div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="class_game.html#a06fe74460b1375e3a5b8a3bd06dcfed6">   97</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#a06fe74460b1375e3a5b8a3bd06dcfed6">totalBattles</a>;</div><div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_game.html#ab38218662a83596470a19754c2a8e727">   99</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_game.html#ab38218662a83596470a19754c2a8e727">expMonster</a>;</div><div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="class_game.html#a3db95400f2c7fe3bb458625892193f65">  101</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#a3db95400f2c7fe3bb458625892193f65">expHero</a>;</div><div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="class_game.html#a28d63f9ec109d52bd46f8101dcd2865b">  103</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#a28d63f9ec109d52bd46f8101dcd2865b">lvlUpHero</a>;</div><div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_game.html#a471d959b71b862f55909cd7084c7dd73">  105</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_game.html#a471d959b71b862f55909cd7084c7dd73">factorUp</a>;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#abfa9b5f5faf79836de646ed8640f56fd">showResultGame</a>(<span class="keywordtype">int</span> i);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a2c53ba4618dc9a9bc9323f531119337d">showResultBattle</a>();</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;};</div><div class="ttc" id="class_game_html_a0f4016f4d3a68660d49f724ec5f3ff94"><div class="ttname"><a href="class_game.html#a0f4016f4d3a68660d49f724ec5f3ff94">Game::getTotalPoints</a></div><div class="ttdeci">int getTotalPoints()</div><div class="ttdoc">Метод получения значения поля totalPoints.</div></div>
+<div class="ttc" id="class_game_html_ab38218662a83596470a19754c2a8e727"><div class="ttname"><a href="class_game.html#ab38218662a83596470a19754c2a8e727">Game::expMonster</a></div><div class="ttdeci">int expMonster</div><div class="ttdoc">Опыт за монстра.</div><div class="ttdef"><b>Definition:</b> Game.h:99</div></div>
+<div class="ttc" id="class_game_html_a16daf5063702fb54ada35f13598692ef"><div class="ttname"><a href="class_game.html#a16daf5063702fb54ada35f13598692ef">Game::lvlHero</a></div><div class="ttdeci">int lvlHero</div><div class="ttdoc">Уровень героя.</div><div class="ttdef"><b>Definition:</b> Game.h:91</div></div>
+<div class="ttc" id="class_game_html_a23c71d447254dd4336ff166fffbf11a0"><div class="ttname"><a href="class_game.html#a23c71d447254dd4336ff166fffbf11a0">Game::setExpMonster</a></div><div class="ttdeci">void setExpMonster(int x)</div><div class="ttdoc">Метод установки значения поля expMonster.</div></div>
+<div class="ttc" id="class_game_html_a304fa1f1160448dd0a7e6520d23c6c4a"><div class="ttname"><a href="class_game.html#a304fa1f1160448dd0a7e6520d23c6c4a">Game::game</a></div><div class="ttdeci">void game(int maxLvl)</div><div class="ttdoc">Проведение одной игры.</div></div>
+<div class="ttc" id="class_game_html_a44e55724e402590ad34553a5e733dfa8"><div class="ttname"><a href="class_game.html#a44e55724e402590ad34553a5e733dfa8">Game::getLvlHero</a></div><div class="ttdeci">int getLvlHero()</div></div>
+<div class="ttc" id="class_game_html_abfa9b5f5faf79836de646ed8640f56fd"><div class="ttname"><a href="class_game.html#abfa9b5f5faf79836de646ed8640f56fd">Game::showResultGame</a></div><div class="ttdeci">void showResultGame(int i)</div><div class="ttdoc">Вывод на дисплей результатов игры.</div></div>
+<div class="ttc" id="class_game_html_ad59df6562a58a614fda24622d3715b65"><div class="ttname"><a href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game::Game</a></div><div class="ttdeci">Game()</div><div class="ttdoc">Конструктор по умолчанию.</div></div>
+<div class="ttc" id="class_game_html_a152d8fe67f8a082d080e6722c23a22c2"><div class="ttname"><a href="class_game.html#a152d8fe67f8a082d080e6722c23a22c2">Game::totalPoints</a></div><div class="ttdeci">int totalPoints</div><div class="ttdoc">Количество очков.</div><div class="ttdef"><b>Definition:</b> Game.h:95</div></div>
+<div class="ttc" id="class_game_html_a1a89d1483b52cba446ac1cdba08d63e9"><div class="ttname"><a href="class_game.html#a1a89d1483b52cba446ac1cdba08d63e9">Game::getFactorUp</a></div><div class="ttdeci">double getFactorUp()</div><div class="ttdoc">Метод получения значения поля factorUp.</div></div>
+<div class="ttc" id="class_game_html_ad7091bc57611cf953804802cad823ec0"><div class="ttname"><a href="class_game.html#ad7091bc57611cf953804802cad823ec0">Game::getExpHero</a></div><div class="ttdeci">double getExpHero()</div><div class="ttdoc">Метод получения значения поля expHero.</div></div>
+<div class="ttc" id="class_game_html_a9178a31ed52855916619884456aacd96"><div class="ttname"><a href="class_game.html#a9178a31ed52855916619884456aacd96">Game::battle</a></div><div class="ttdeci">void battle()</div><div class="ttdoc">Проведение одной битвы в игре.</div></div>
+<div class="ttc" id="class_game_html_a0645b9d4ac6769c6600e55a5241dd286"><div class="ttname"><a href="class_game.html#a0645b9d4ac6769c6600e55a5241dd286">Game::setExpHero</a></div><div class="ttdeci">void setExpHero(double x)</div><div class="ttdoc">Метод установки значения поля expHero.</div></div>
+<div class="ttc" id="class_game_html_a12f32ba70a35a0dcd1f527b4d4a0d2c4"><div class="ttname"><a href="class_game.html#a12f32ba70a35a0dcd1f527b4d4a0d2c4">Game::newGame</a></div><div class="ttdeci">void newGame()</div><div class="ttdoc">Установка параметров для новой игры.</div></div>
+<div class="ttc" id="class_game_html_ae04f05a78afdcd52ad8dcebb142c757c"><div class="ttname"><a href="class_game.html#ae04f05a78afdcd52ad8dcebb142c757c">Game::setLvlHero</a></div><div class="ttdeci">void setLvlHero(int x)</div></div>
+<div class="ttc" id="class_game_html_ae68278d1fb0efbc8b7617d15c27066b5"><div class="ttname"><a href="class_game.html#ae68278d1fb0efbc8b7617d15c27066b5">Game::getTotalBattles</a></div><div class="ttdeci">int getTotalBattles()</div><div class="ttdoc">Метод получения значения поля totalBattles.</div></div>
+<div class="ttc" id="class_game_html_a272b189eddd5e3647eab1a16f64d4792"><div class="ttname"><a href="class_game.html#a272b189eddd5e3647eab1a16f64d4792">Game::getLvlUpHero</a></div><div class="ttdeci">double getLvlUpHero()</div><div class="ttdoc">Метод получения значения поля lvlUpHero.</div></div>
+<div class="ttc" id="class_game_html_a06fe74460b1375e3a5b8a3bd06dcfed6"><div class="ttname"><a href="class_game.html#a06fe74460b1375e3a5b8a3bd06dcfed6">Game::totalBattles</a></div><div class="ttdeci">int totalBattles</div><div class="ttdoc">Количество битв.</div><div class="ttdef"><b>Definition:</b> Game.h:97</div></div>
+<div class="ttc" id="class_game_html_a47c586c1e7955af4ddca0375f199126a"><div class="ttname"><a href="class_game.html#a47c586c1e7955af4ddca0375f199126a">Game::setTotalBattles</a></div><div class="ttdeci">void setTotalBattles(int x)</div><div class="ttdoc">Метод установки значения поля totalBattles.</div></div>
+<div class="ttc" id="class_game_html_a8e62fcd5f42453310ce8780159b1805b"><div class="ttname"><a href="class_game.html#a8e62fcd5f42453310ce8780159b1805b">Game::setTotalPoints</a></div><div class="ttdeci">void setTotalPoints(int x)</div><div class="ttdoc">Метод установки значения поля totalPoints.</div></div>
+<div class="ttc" id="class_game_html"><div class="ttname"><a href="class_game.html">Game</a></div><div class="ttdoc">Класс Game.</div><div class="ttdef"><b>Definition:</b> Game.h:11</div></div>
+<div class="ttc" id="class_game_html_a309984322c5344669e77dbf51a6d95d4"><div class="ttname"><a href="class_game.html#a309984322c5344669e77dbf51a6d95d4">Game::setLvlUpHero</a></div><div class="ttdeci">void setLvlUpHero(double x)</div><div class="ttdoc">Метод установки значения поля lvlUpHero.</div></div>
+<div class="ttc" id="class_game_html_a984f0b5f0b678da85cb3cfccbc916474"><div class="ttname"><a href="class_game.html#a984f0b5f0b678da85cb3cfccbc916474">Game::lvlUp</a></div><div class="ttdeci">void lvlUp()</div><div class="ttdoc">Перерасчет параметров, связанных с повышением уровня.</div></div>
+<div class="ttc" id="class_game_html_a3db95400f2c7fe3bb458625892193f65"><div class="ttname"><a href="class_game.html#a3db95400f2c7fe3bb458625892193f65">Game::expHero</a></div><div class="ttdeci">double expHero</div><div class="ttdoc">Опыт героя.</div><div class="ttdef"><b>Definition:</b> Game.h:101</div></div>
+<div class="ttc" id="class_game_html_a6053483309cbf4dc00f0b7474f1bfa87"><div class="ttname"><a href="class_game.html#a6053483309cbf4dc00f0b7474f1bfa87">Game::getExpMonster</a></div><div class="ttdeci">int getExpMonster()</div><div class="ttdoc">Метод получения значения поля expMonster.</div></div>
+<div class="ttc" id="class_game_html_a2ecd8445b7dec3f6e4e41a2d834f05cf"><div class="ttname"><a href="class_game.html#a2ecd8445b7dec3f6e4e41a2d834f05cf">Game::setFactorUp</a></div><div class="ttdeci">void setFactorUp(double x)</div><div class="ttdoc">Метод установки значения поля factorUp.</div></div>
+<div class="ttc" id="class_game_html_a28d63f9ec109d52bd46f8101dcd2865b"><div class="ttname"><a href="class_game.html#a28d63f9ec109d52bd46f8101dcd2865b">Game::lvlUpHero</a></div><div class="ttdeci">double lvlUpHero</div><div class="ttdoc">Количество опыта, требуемого для поднятия уровня.</div><div class="ttdef"><b>Definition:</b> Game.h:103</div></div>
+<div class="ttc" id="class_game_html_a471d959b71b862f55909cd7084c7dd73"><div class="ttname"><a href="class_game.html#a471d959b71b862f55909cd7084c7dd73">Game::factorUp</a></div><div class="ttdeci">double factorUp</div><div class="ttdoc">Коэффициент повышения значения поля lvlUpHero.</div><div class="ttdef"><b>Definition:</b> Game.h:105</div></div>
+<div class="ttc" id="class_game_html_adf4701be3eac15cca7a6bf9993d42fe5"><div class="ttname"><a href="class_game.html#adf4701be3eac15cca7a6bf9993d42fe5">Game::lvlMonster</a></div><div class="ttdeci">int lvlMonster</div><div class="ttdoc">Уровень монстра.</div><div class="ttdef"><b>Definition:</b> Game.h:93</div></div>
+<div class="ttc" id="class_game_html_a2c53ba4618dc9a9bc9323f531119337d"><div class="ttname"><a href="class_game.html#a2c53ba4618dc9a9bc9323f531119337d">Game::showResultBattle</a></div><div class="ttdeci">void showResultBattle()</div><div class="ttdoc">Вывод на дисплей результатов боя.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
